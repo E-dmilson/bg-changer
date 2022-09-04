@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #111;
+    text-align: center;
+    color: #fff;
+    height: 80px;
+    padding: 1.5rem 0;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+    gap: 0.5rem;
+}
+
+.bg input{
+    width: 180px;
+    height: 150px;
+    border: 0;
+    cursor: pointer;
+}
+
+.bg button{
+    padding: 2rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+.bg button:hover{
+    background: #666;
+    border: 2px solid #999;
+    color: #fff;
+}
+
+/* ############################################# */
+.bg .obter{
+    position: absolute;
+    top: 55%;
+    left: 56.5%;
+    background: #fff;
+    padding: 0.5%;
+    width: 174px;
+    text-align: center;
+    font-weight: 800;
+}
